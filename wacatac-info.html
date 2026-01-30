@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wacatac.h!ml - Bedrohungsanalyse und Entfernung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #d32f2f;
+            border-bottom: 3px solid #d32f2f;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1976d2;
+            margin-top: 25px;
+        }
+        .threat-level {
+            background-color: #ff5252;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .info-box {
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .success-box {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        ul {
+            padding-left: 25px;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .step {
+            background-color: #f5f5f5;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 3px solid #1976d2;
+        }
+        .step-number {
+            font-weight: bold;
+            color: #1976d2;
+        }
+        code {
+            background-color: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Wacatac.h!ml - Bedrohungsanalyse</h1>
+        
+        <div class="threat-level">
+            BEDROHUNGSSTUFE: HOCH ⚠️
+        </div>
+
+        <h2>Was ist Wacatac.h!ml?</h2>
+        <p>
+            <strong>Wacatac.h!ml</strong> (auch bekannt als Trojan:Win32/Wacatac.H!ml) ist eine Erkennungsbezeichnung 
+            von Microsoft Defender und anderen Antivirenprogrammen für eine Familie von Trojanern und potenziell 
+            unerwünschten Programmen (PUPs).
+        </p>
+
+        <div class="warning-box">
+            <strong>⚠️ Wichtig:</strong> Diese Bedrohung sollte ernst genommen werden. Es handelt sich um einen 
+            generischen Trojaner, der verschiedene schädliche Aktivitäten ausführen kann.
+        </div>
+
+        <h2>Wie bedrohlich ist Wacatac.h!ml?</h2>
+        <p>Die Bedrohung ist als <strong>hoch bis kritisch</strong> einzustufen aus folgenden Gründen:</p>
+        
+        <ul>
+            <li><strong>Datendiebstahl:</strong> Kann persönliche Informationen, Passwörter und Kreditkartendaten stehlen</li>
+            <li><strong>Systemzugriff:</strong> Ermöglicht Angreifern Remote-Zugriff auf Ihren Computer</li>
+            <li><strong>Weitere Malware:</strong> Kann zusätzliche Schadsoftware herunterladen und installieren</li>
+            <li><strong>Keylogging:</strong> Zeichnet möglicherweise Ihre Tastatureingaben auf</li>
+            <li><strong>Cryptocurrency Mining:</strong> Nutzt Ihre Systemressourcen für Kryptowährungs-Mining</li>
+            <li><strong>Ransomware:</strong> Kann Dateien verschlüsseln und Lösegeld fordern</li>
+            <li><strong>Spyware-Funktionen:</strong> Überwacht Ihre Online-Aktivitäten</li>
+        </ul>
+
+        <h2>Symptome einer Infektion</h2>
+        <div class="info-box">
+            <strong>Typische Anzeichen:</strong>
+            <ul>
+                <li>Langsame Systemleistung</li>
+                <li>Unerwartete Pop-ups und Werbung</li>
+                <li>Programme starten ohne Ihre Erlaubnis</li>
+                <li>Hohe CPU- oder Netzwerkauslastung</li>
+                <li>Antivirensoftware wird deaktiviert oder blockiert</li>
+                <li>Unbekannte Prozesse im Task-Manager</li>
+                <li>Browser-Weiterleitungen zu unbekannten Websites</li>
+            </ul>
+        </div>
+
+        <h2>Sofortmaßnahmen</h2>
+        
+        <div class="step">
+            <span class="step-number">Schritt 1:</span> Trennen Sie sofort die Internetverbindung
+            <ul>
+                <li>Deaktivieren Sie WLAN oder trennen Sie das Netzwerkkabel</li>
+                <li>Dies verhindert weitere Datenübertragung und Nachinfektionen</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <span class="step-number">Schritt 2:</span> Starten Sie im abgesicherten Modus
+            <ul>
+                <li>Drücken Sie <code>Windows + R</code></li>
+                <li>Geben Sie <code>msconfig</code> ein</li>
+                <li>Wählen Sie "Start" → "Abgesicherter Start"</li>
+                <li>Starten Sie den Computer neu</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <span class="step-number">Schritt 3:</span> Führen Sie einen vollständigen System-Scan durch
+            <ul>
+                <li>Verwenden Sie Windows Defender (eingebaut)</li>
+                <li>Oder nutzen Sie zusätzliche Tools wie Malwarebytes, Kaspersky, oder Norton</li>
+            </ul>
+        </div>
+
+        <h2>Entfernungsanleitung</h2>
+
+        <h3>Methode 1: Windows Defender</h3>
+        <ol>
+            <li>Öffnen Sie Windows-Sicherheit (Windows + I → Update & Sicherheit → Windows-Sicherheit)</li>
+            <li>Klicken Sie auf "Viren- & Bedrohungsschutz"</li>
+            <li>Wählen Sie "Scanoptionen"</li>
+            <li>Führen Sie einen "Microsoft Defender Offline-Scan" durch</li>
+            <li>Folgen Sie den Anweisungen zur Bereinigung</li>
+        </ol>
+
+        <h3>Methode 2: Malwarebytes (Empfohlen)</h3>
+        <ol>
+            <li>Laden Sie Malwarebytes von einem sauberen Computer herunter</li>
+            <li>Übertragen Sie es per USB-Stick auf den infizierten Computer</li>
+            <li>Installieren Sie Malwarebytes im abgesicherten Modus</li>
+            <li>Führen Sie einen vollständigen Scan durch</li>
+            <li>Entfernen Sie alle gefundenen Bedrohungen</li>
+        </ol>
+
+        <h3>Methode 3: Manuelle Entfernung (Für Fortgeschrittene)</h3>
+        <div class="warning-box">
+            <strong>⚠️ Warnung:</strong> Nur für erfahrene Benutzer! Falsche Änderungen können das System beschädigen.
+        </div>
+        <ol>
+            <li>Öffnen Sie den Task-Manager (<code>Strg + Shift + Esc</code>)</li>
+            <li>Suchen Sie nach verdächtigen Prozessen</li>
+            <li>Beenden Sie diese Prozesse</li>
+            <li>Öffnen Sie den Registrierungs-Editor (<code>Windows + R</code> → <code>regedit</code>)</li>
+            <li>Suchen Sie nach Autostart-Einträgen unter:
+                <ul>
+                    <li><code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run</code></li>
+                    <li><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</code></li>
+                </ul>
+            </li>
+            <li>Löschen Sie verdächtige Einträge</li>
+            <li>Löschen Sie verdächtige Dateien aus <code>%AppData%</code> und <code>%Temp%</code></li>
+        </ol>
+
+        <h2>Prävention</h2>
+        <div class="success-box">
+            <strong>✓ So schützen Sie sich zukünftig:</strong>
+            <ul>
+                <li><strong>Halten Sie Windows aktuell:</strong> Installieren Sie alle Sicherheitsupdates</li>
+                <li><strong>Verwenden Sie eine Antivirensoftware:</strong> Halten Sie diese immer aktiv und aktuell</li>
+                <li><strong>Vorsicht bei Downloads:</strong> Laden Sie Software nur von vertrauenswürdigen Quellen herunter</li>
+                <li><strong>Öffnen Sie keine verdächtigen E-Mail-Anhänge</strong></li>
+                <li><strong>Klicken Sie nicht auf dubiose Links</strong></li>
+                <li><strong>Verwenden Sie sichere Passwörter</strong> und einen Passwort-Manager</li>
+                <li><strong>Aktivieren Sie die Firewall</strong></li>
+                <li><strong>Erstellen Sie regelmäßige Backups</strong> Ihrer wichtigen Daten</li>
+                <li><strong>Verwenden Sie ein Standardbenutzerkonto</strong> statt Administrator für tägliche Aufgaben</li>
+            </ul>
+        </div>
+
+        <h2>Häufige Infektionsquellen</h2>
+        <ul>
+            <li>Raubkopierte Software und Cracks</li>
+            <li>Fake-Software-Updates</li>
+            <li>Bösartige E-Mail-Anhänge</li>
+            <li>Kompromittierte Websites</li>
+            <li>Infizierte USB-Sticks</li>
+            <li>Peer-to-Peer (P2P) File-Sharing-Netzwerke</li>
+            <li>Gefälschte Download-Buttons auf Websites</li>
+        </ul>
+
+        <h2>Nach der Entfernung</h2>
+        <div class="info-box">
+            <strong>Wichtige Schritte nach erfolgreicher Entfernung:</strong>
+            <ol>
+                <li><strong>Ändern Sie alle Passwörter</strong> von einem sauberen Gerät aus</li>
+                <li><strong>Überprüfen Sie Ihre Bankkonten</strong> auf ungewöhnliche Aktivitäten</li>
+                <li><strong>Aktivieren Sie Zwei-Faktor-Authentifizierung</strong> für wichtige Konten</li>
+                <li><strong>Überwachen Sie Ihr System</strong> in den nächsten Wochen auf verdächtige Aktivität</li>
+                <li><strong>Führen Sie regelmäßige Scans</strong> mit verschiedenen Antivirentools durch</li>
+                <li><strong>Erwägen Sie eine Neuinstallation</strong> von Windows für maximale Sicherheit</li>
+            </ol>
+        </div>
+
+        <h2>Professionelle Hilfe</h2>
+        <p>
+            Wenn Sie sich unsicher fühlen oder die Bedrohung nicht selbst entfernen können:
+        </p>
+        <ul>
+            <li>Wenden Sie sich an einen IT-Sicherheitsexperten</li>
+            <li>Kontaktieren Sie einen Computer-Reparaturservice</li>
+            <li>Bei schwerwiegenden Fällen: Melden Sie den Vorfall bei den zuständigen Behörden</li>
+        </ul>
+
+        <div class="warning-box">
+            <strong>🚨 Fazit:</strong> Wacatac.h!ml ist eine ernsthafte Bedrohung, die sofortiges Handeln erfordert. 
+            Befolgen Sie die obigen Schritte zur Entfernung und ergreifen Sie Präventivmaßnahmen, um zukünftige 
+            Infektionen zu vermeiden. Bei Unsicherheit holen Sie sich professionelle Hilfe.
+        </div>
+
+        <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; color: #666;">
+            <p><small>Stand: Januar 2026 | Diese Informationen dienen nur zu Bildungszwecken</small></p>
+        </footer>
+    </div>
+</body>
+</html>
